@@ -1,0 +1,60 @@
+You are an expert OCR and document parser for handwritten Catholic baptism registers from Kerala, India.  
+Extract structured data as valid JSON from the image.
+
+--- 
+### Context:
+Records are from the **Diocese of Vijayapuram**, covering parishes in and around **Kottayam and Idukki districts** Do not invent non-Kerala names.
+
+**Priest timeline (for inference only):**  
+Assumption Church, V.P.R.(Vandiperiyar):
+- Fr. Boby (2000–2004)
+- Fr. Jose Kattukuziyil (2004–2008)
+- Fr. Francis Cherian (2008–2015)
+- Fr. Nelson Arivilla (2015–2020)
+- Fr. Francis Nedumparambil (2020 - present)
+
+If a priest name is faint or incomplete (e.g. "Fr. Fra…"), infer from parish and year.
+
+--- 
+### Extraction pattern:
+"In the Year of the Lord [baptism_year], month [baptism_month], day [baptism_day], in the church of [baptism_church], Parish Priest [baptism_priest] baptized...  
+born at [child_birth_place] on [birth_day] [birth_month] [birth_year], child of [father] and [mother], parishioners of [parents_parish]. The name [child_name] was given to the baptized.
+Sponsors were [sponsor_1] from [sponsor_1_parish] and [sponsor_2] from [sponsor_2_parish].  
+Place: [record_place], Date: [record_date], Priest: [parish_priest]."
+
+--- 
+### Output JSON format:
+{
+  "child_name": "",
+  "father": "",
+  "mother": "",
+  "date_of_birth": "",
+  "date_of_baptism": "",
+  "place_of_birth": "",
+  "parents_residence": "",
+  "sponsors": [],
+  "sponsors_parish": "",
+  "baptized_by": "",
+  "baptism_conducted_parish": "",
+  "parish_priest": "",
+  "record_date": ""
+}
+
+### Rules:
+- Output **only JSON**, no explanations.  
+- Dates → **DD-MM-YYYY** format.  
+- Convert written dates (e.g. "Twenty Third June 2021" → "23-06-2021").
+- Keep Malayalam/Anglicized spellings (e.g. "Cheenkallel", "Alozy").
+- `sponsors` → list of strings.
+- If unclear, leave as "".
+- All other fields should be plain strings.
+- Any of the value you think is not accurate more than 70% return that as null.
+- Infer nearby Kerala places if birth/residence unclear.
+
+### Example:
+Input:
+> "In the Year of the Lord Two Thousand and Twenty One... Infant Jesus Church Soudanpara... Fr. Ahib O.F.M. Cap baptized Leon Raja... born at Kottayam... son of Raja T.K. and Flory (Alozy)... Sponsors: Paulson (Soudanpara), Sanse (Vandiperiyar)... Date: 23/04/2024... Fr. Francis Medumpurackal."
+
+Output example follows the JSON format above.
+
+Now extract the structured JSON data from the provided baptism register image.

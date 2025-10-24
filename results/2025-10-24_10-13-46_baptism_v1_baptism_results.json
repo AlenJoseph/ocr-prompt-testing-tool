@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "timestamp": "2025-10-24T10:13:46.339Z",
+    "promptFile": "baptism_v1.txt",
+    "documentType": "baptism",
+    "totalImagesProcessed": 0,
+    "imagesWithBaselines": 0
+  },
+  "overallAccuracy": null,
+  "summary": {
+    "totalImages": 0,
+    "successfulTests": 0,
+    "averageProcessingTime": 0,
+    "bestAccuracy": null,
+    "worstAccuracy": null
+  },
+  "results": []
+}

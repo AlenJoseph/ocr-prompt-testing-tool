@@ -1,0 +1,18 @@
+{
+  "document_type": "marriage",
+  "groom_name": "John Michael Smith",
+  "groom_age": 28,
+  "groom_occupation": "Engineer",
+  "groom_residence": "New York, NY",
+  "bride_name": "Sarah Elizabeth Johnson",
+  "bride_age": 26,
+  "bride_occupation": "Teacher",
+  "bride_residence": "Brooklyn, NY",
+  "marriage_date": "1920-06-15",
+  "marriage_location": "Manhattan, New York",
+  "officiant": "Rev. Thomas Williams",
+  "witness_1": "Robert Smith",
+  "witness_2": "Mary Johnson",
+  "registration_number": "M-1920-0425",
+  "registration_date": "1920-06-20"
+}

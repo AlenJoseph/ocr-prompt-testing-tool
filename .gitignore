@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+.env.
+
+# Build output
+dist/
+*.js
+*.js.map
+*.d.ts
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Test results (optional - uncomment if you don't want to track results)
+# results/
+
+# Temporary files
+tmp/
+temp/
