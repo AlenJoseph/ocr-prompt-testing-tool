@@ -2,12 +2,13 @@ import { readFile, listFilesInDirectory, writeFile, getFileExtension } from '../
 import { processImageWithOCR } from '../ocr/openai';
 import { compareResults } from './comparator';
 import { logInfo, logWarning, logError, logSuccess } from '../utils/logger';
+import { getSchemaForDocumentType, type DocumentType } from '../schemas';
 import path from 'path';
 import fs from 'fs';
 
 interface TestConfig {
   promptFile: string;
-  documentType: 'marriage' | 'baptism' | 'death';
+  documentType: DocumentType;
   imageCount: string | number;
   outputDir: string;
 }
@@ -148,6 +149,7 @@ export class TestRunner {
 
   private async processImage(imageFile: string, baselines: Map<string, any>): Promise<void> {
     const startTime = Date.now();
+    logInfo(`Processing: ${imageFile}`);
     
     try {
       const imagePath = path.join(process.cwd(), 'data', 'images', this.config.documentType, imageFile);
@@ -160,8 +162,11 @@ export class TestRunner {
         logWarning(`  ⚠️  No baseline found for ${imageFile}, skipping accuracy comparison`);
       }
       
-      // Process image with OCR
-      const generated = await processImageWithOCR(imagePath, this.prompt);
+      // Get the appropriate Zod schema for this document type
+      const schema = getSchemaForDocumentType(this.config.documentType);
+      
+      // Process image with OCR using AI SDK with Zod schema validation
+      const generated = await processImageWithOCR(imagePath, this.prompt, schema);
       
       const processingTime = Date.now() - startTime;
       
