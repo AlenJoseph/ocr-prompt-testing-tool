@@ -1,0 +1,853 @@
+{
+  "metadata": {
+    "timestamp": "2025-10-25T05:35:18.149Z",
+    "promptFile": "death_v1.txt",
+    "documentType": "death",
+    "totalImagesProcessed": 10,
+    "imagesWithBaselines": 10
+  },
+  "overallAccuracy": 44.71,
+  "summary": {
+    "totalImages": 10,
+    "successfulTests": 10,
+    "averageProcessingTime": 5877,
+    "bestAccuracy": 58.82352941176471,
+    "worstAccuracy": 23.52941176470588
+  },
+  "results": [
+    {
+      "imageFile": "death_001.jpeg",
+      "accuracy": 41.17647058823529,
+      "processingTime": 6220,
+      "discrepanciesCount": 10,
+      "discrepancies": [
+        {
+          "field": "person_name",
+          "expected": "Wilfred Beno (Elby)",
+          "actual": "Wilfred B. K. Elby",
+          "type": "incorrect"
+        },
+        {
+          "field": "death_time",
+          "expected": "06:00 PM",
+          "actual": "6:00 p.m.",
+          "type": "incorrect"
+        },
+        {
+          "field": "age",
+          "expected": 60,
+          "actual": "60",
+          "type": "incorrect"
+        },
+        {
+          "field": "death_place",
+          "expected": "",
+          "actual": "Assumption",
+          "type": "incorrect"
+        },
+        {
+          "field": "burial_place",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "Vandiperiyar",
+          "type": "incorrect"
+        },
+        {
+          "field": "father",
+          "expected": "BK Xavier",
+          "actual": "B. K. Xavier",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_name",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "Assumption Church",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "",
+          "actual": "Fr. Francis Cherian",
+          "type": "incorrect"
+        },
+        {
+          "field": "holy_viaticum_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "anointing_of_sick_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        }
+      ],
+      "generated": {
+        "person_name": "Wilfred B. K. Elby",
+        "father": "B. K. Xavier",
+        "mother": "Mary Xavier",
+        "age": "60",
+        "death_date": "15-06-2011",
+        "death_time": "6:00 p.m.",
+        "death_place": "Assumption",
+        "death_reason": "Heart Attack",
+        "cell_no": "43",
+        "burial_date": "16-06-2011",
+        "burial_time": "6:00 p.m.",
+        "burial_place": "Vandiperiyar",
+        "parish_name": "Assumption Church",
+        "parish_priest": "Fr. Francis Cherian",
+        "sop_doneby": "Fr. Benny",
+        "holy_viaticum_by": null,
+        "anointing_of_sick_by": null
+      }
+    },
+    {
+      "imageFile": "death_002.jpg",
+      "accuracy": 41.17647058823529,
+      "processingTime": 5507,
+      "discrepanciesCount": 10,
+      "discrepancies": [
+        {
+          "field": "death_time",
+          "expected": "05:00 PM",
+          "actual": "5:00 p.m.",
+          "type": "incorrect"
+        },
+        {
+          "field": "age",
+          "expected": 75,
+          "actual": "75",
+          "type": "incorrect"
+        },
+        {
+          "field": "burial_time",
+          "expected": "03:15 PM",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "father",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "mother",
+          "expected": "",
+          "actual": "Thresia Vellecraden",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_name",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "Assumption Church, V.P.R",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Sebastian",
+          "actual": "Fr. Francis Cherian",
+          "type": "incorrect"
+        },
+        {
+          "field": "sop_doneby",
+          "expected": "Fr Joseph Meenaikadth",
+          "actual": "Fr. Joseph Moolakkodath",
+          "type": "incorrect"
+        },
+        {
+          "field": "holy_viaticum_by",
+          "expected": "",
+          "actual": "Laden",
+          "type": "incorrect"
+        },
+        {
+          "field": "anointing_of_sick_by",
+          "expected": "",
+          "actual": "Laden",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "person_name": "Theresamma",
+        "father": null,
+        "mother": "Thresia Vellecraden",
+        "age": "75",
+        "death_date": "24-01-2011",
+        "death_time": "5:00 p.m.",
+        "death_place": "Vandiperiyar",
+        "death_reason": "Sick",
+        "cell_no": "38",
+        "burial_date": "25-01-2011",
+        "burial_time": null,
+        "burial_place": "Vandiperiyar",
+        "parish_name": "Assumption Church, V.P.R",
+        "parish_priest": "Fr. Francis Cherian",
+        "sop_doneby": "Fr. Joseph Moolakkodath",
+        "holy_viaticum_by": "Laden",
+        "anointing_of_sick_by": "Laden"
+      }
+    },
+    {
+      "imageFile": "death_003.jpg",
+      "accuracy": 23.52941176470588,
+      "processingTime": 5720,
+      "discrepanciesCount": 13,
+      "discrepancies": [
+        {
+          "field": "person_name",
+          "expected": "Elisabeth Kallarackel",
+          "actual": "James Kollaraekkal Elisabeth",
+          "type": "incorrect"
+        },
+        {
+          "field": "death_date",
+          "expected": "03-11-2009",
+          "actual": "04-11-2009",
+          "type": "incorrect"
+        },
+        {
+          "field": "death_time",
+          "expected": "09:15 PM",
+          "actual": "9:15 p.m.",
+          "type": "incorrect"
+        },
+        {
+          "field": "age",
+          "expected": 87,
+          "actual": "17",
+          "type": "incorrect"
+        },
+        {
+          "field": "death_place",
+          "expected": "Anakuzhy Puthukad",
+          "actual": "Anakkyooruthankal",
+          "type": "incorrect"
+        },
+        {
+          "field": "burial_place",
+          "expected": "Vandiperiyar",
+          "actual": "V.P.R.",
+          "type": "incorrect"
+        },
+        {
+          "field": "father",
+          "expected": "James",
+          "actual": "Kollaraekkal",
+          "type": "incorrect"
+        },
+        {
+          "field": "mother",
+          "expected": "Sherly",
+          "actual": "Shresly",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_name",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "Assumption Church V.P.R",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Thomas",
+          "actual": "Fr. Francis Cherian",
+          "type": "incorrect"
+        },
+        {
+          "field": "sop_doneby",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "holy_viaticum_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "anointing_of_sick_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        }
+      ],
+      "generated": {
+        "person_name": "James Kollaraekkal Elisabeth",
+        "father": "Kollaraekkal",
+        "mother": "Shresly",
+        "age": "17",
+        "death_date": "04-11-2009",
+        "death_time": "9:15 p.m.",
+        "death_place": "Anakkyooruthankal",
+        "death_reason": "fire",
+        "cell_no": "9",
+        "burial_date": "04-11-2009",
+        "burial_time": "",
+        "burial_place": "V.P.R.",
+        "parish_name": "Assumption Church V.P.R",
+        "parish_priest": "Fr. Francis Cherian",
+        "sop_doneby": null,
+        "holy_viaticum_by": null,
+        "anointing_of_sick_by": null
+      }
+    },
+    {
+      "imageFile": "death_004.jpg",
+      "accuracy": 47.05882352941176,
+      "processingTime": 6172,
+      "discrepanciesCount": 9,
+      "discrepancies": [
+        {
+          "field": "person_name",
+          "expected": "Kurisesu",
+          "actual": "Subramanyam",
+          "type": "incorrect"
+        },
+        {
+          "field": "death_time",
+          "expected": "07:00 PM",
+          "actual": "7:00 a.m.",
+          "type": "incorrect"
+        },
+        {
+          "field": "age",
+          "expected": 95,
+          "actual": "95",
+          "type": "incorrect"
+        },
+        {
+          "field": "father",
+          "expected": "Subramanyam",
+          "actual": "Kurisesu",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_name",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "Vandiperiyar",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Thomas",
+          "actual": "Fr. Francis Nedumparambil",
+          "type": "incorrect"
+        },
+        {
+          "field": "sop_doneby",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "holy_viaticum_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "anointing_of_sick_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        }
+      ],
+      "generated": {
+        "person_name": "Subramanyam",
+        "father": "Kurisesu",
+        "mother": "Annamma",
+        "age": "95",
+        "death_date": "10-10-2009",
+        "death_time": "7:00 a.m.",
+        "death_place": "Vandiperiyar",
+        "death_reason": "Sick",
+        "cell_no": "8",
+        "burial_date": "11-10-2009",
+        "burial_time": "",
+        "burial_place": "Vandiperiyar",
+        "parish_name": "Vandiperiyar",
+        "parish_priest": "Fr. Francis Nedumparambil",
+        "sop_doneby": null,
+        "holy_viaticum_by": null,
+        "anointing_of_sick_by": null
+      }
+    },
+    {
+      "imageFile": "death_005.jpg",
+      "accuracy": 41.17647058823529,
+      "processingTime": 4887,
+      "discrepanciesCount": 10,
+      "discrepancies": [
+        {
+          "field": "death_time",
+          "expected": "04:00 PM",
+          "actual": "4:00 p.m.",
+          "type": "incorrect"
+        },
+        {
+          "field": "age",
+          "expected": 75,
+          "actual": "75",
+          "type": "incorrect"
+        },
+        {
+          "field": "burial_time",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "burial_place",
+          "expected": "Vandiperiyar Cemetery",
+          "actual": "Vandiperiyar",
+          "type": "incorrect"
+        },
+        {
+          "field": "father",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "mother",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "",
+          "actual": "Fr. Francis Cherian",
+          "type": "incorrect"
+        },
+        {
+          "field": "sop_doneby",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "holy_viaticum_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "anointing_of_sick_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        }
+      ],
+      "generated": {
+        "person_name": "Alphonsa Soosai",
+        "father": null,
+        "mother": null,
+        "age": "75",
+        "death_date": "18-12-2009",
+        "death_time": "4:00 p.m.",
+        "death_place": "Vandiperiyar",
+        "death_reason": "Old Age",
+        "cell_no": "11",
+        "burial_date": "19-12-2009",
+        "burial_time": null,
+        "burial_place": "Vandiperiyar",
+        "parish_name": "Assumption Church, Vandiperiyar",
+        "parish_priest": "Fr. Francis Cherian",
+        "sop_doneby": null,
+        "holy_viaticum_by": null,
+        "anointing_of_sick_by": null
+      }
+    },
+    {
+      "imageFile": "death_006.jpg",
+      "accuracy": 41.17647058823529,
+      "processingTime": 5355,
+      "discrepanciesCount": 10,
+      "discrepancies": [
+        {
+          "field": "death_time",
+          "expected": "04:55 PM",
+          "actual": "4:55 p.m.",
+          "type": "incorrect"
+        },
+        {
+          "field": "age",
+          "expected": 87,
+          "actual": "82",
+          "type": "incorrect"
+        },
+        {
+          "field": "burial_time",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "cell_no",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "father",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "mother",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Thomas",
+          "actual": "Fr. Nelson Arivilla",
+          "type": "incorrect"
+        },
+        {
+          "field": "sop_doneby",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "holy_viaticum_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "anointing_of_sick_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        }
+      ],
+      "generated": {
+        "person_name": "Aleyamma Varghese",
+        "father": null,
+        "mother": null,
+        "age": "82",
+        "death_date": "05-10-2009",
+        "death_time": "4:55 p.m.",
+        "death_place": "Vandiperiyar",
+        "death_reason": "Old Age",
+        "cell_no": null,
+        "burial_date": "06-10-2009",
+        "burial_time": null,
+        "burial_place": "Vandiperiyar",
+        "parish_name": "Assumption Church, Vandiperiyar",
+        "parish_priest": "Fr. Nelson Arivilla",
+        "sop_doneby": null,
+        "holy_viaticum_by": null,
+        "anointing_of_sick_by": null
+      }
+    },
+    {
+      "imageFile": "death_007.jpg",
+      "accuracy": 58.82352941176471,
+      "processingTime": 5219,
+      "discrepanciesCount": 7,
+      "discrepancies": [
+        {
+          "field": "person_name",
+          "expected": "Xavier V.J",
+          "actual": "Xavier V.V.",
+          "type": "incorrect"
+        },
+        {
+          "field": "death_time",
+          "expected": "09:00 AM",
+          "actual": "3:00 a.m.",
+          "type": "incorrect"
+        },
+        {
+          "field": "age",
+          "expected": 62,
+          "actual": "62",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_name",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "Vandiperiyar",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Thomas",
+          "actual": "Fr. Francis Cherian",
+          "type": "incorrect"
+        },
+        {
+          "field": "holy_viaticum_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "anointing_of_sick_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        }
+      ],
+      "generated": {
+        "person_name": "Xavier V.V.",
+        "father": "V.C. Joseph",
+        "mother": "Annamma",
+        "age": "62",
+        "death_date": "21-01-2010",
+        "death_time": "3:00 a.m.",
+        "death_place": "Vandiperiyar",
+        "death_reason": "Sick",
+        "cell_no": "12",
+        "burial_date": "22-01-2010",
+        "burial_time": "",
+        "burial_place": "Vandiperiyar",
+        "parish_name": "Vandiperiyar",
+        "parish_priest": "Fr. Francis Cherian",
+        "sop_doneby": "Fr. Thomas",
+        "holy_viaticum_by": null,
+        "anointing_of_sick_by": null
+      }
+    },
+    {
+      "imageFile": "death_008.jpg",
+      "accuracy": 58.82352941176471,
+      "processingTime": 5812,
+      "discrepanciesCount": 7,
+      "discrepancies": [
+        {
+          "field": "person_name",
+          "expected": "Aseervatham Nellikuzhi",
+          "actual": "Aseervatham Nellikkal",
+          "type": "incorrect"
+        },
+        {
+          "field": "death_time",
+          "expected": "01:30 AM",
+          "actual": "1:30 a.m.",
+          "type": "incorrect"
+        },
+        {
+          "field": "age",
+          "expected": 90,
+          "actual": "Ninety",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Thomas",
+          "actual": "Fr. Nelson Arivilla",
+          "type": "incorrect"
+        },
+        {
+          "field": "sop_doneby",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "holy_viaticum_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "anointing_of_sick_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        }
+      ],
+      "generated": {
+        "person_name": "Aseervatham Nellikkal",
+        "father": "Lakshmanan",
+        "mother": "Thenkara",
+        "age": "Ninety",
+        "death_date": "27-01-2010",
+        "death_time": "1:30 a.m.",
+        "death_place": "Vandiperiyar",
+        "death_reason": "Old Age",
+        "cell_no": "13",
+        "burial_date": "28-01-2010",
+        "burial_time": "",
+        "burial_place": "Vandiperiyar",
+        "parish_name": "Assumption Church, Vandiperiyar",
+        "parish_priest": "Fr. Nelson Arivilla",
+        "sop_doneby": null,
+        "holy_viaticum_by": null,
+        "anointing_of_sick_by": null
+      }
+    },
+    {
+      "imageFile": "death_009.jpg",
+      "accuracy": 41.17647058823529,
+      "processingTime": 7894,
+      "discrepanciesCount": 10,
+      "discrepancies": [
+        {
+          "field": "person_name",
+          "expected": "Mariamma Pekkanam",
+          "actual": "Mariam Pekkanam",
+          "type": "incorrect"
+        },
+        {
+          "field": "death_time",
+          "expected": "06:45 AM",
+          "actual": "6:45 a.m.",
+          "type": "incorrect"
+        },
+        {
+          "field": "age",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "burial_time",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "father",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "mother",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Thomas",
+          "actual": "Fr. Francis Nedumparambil",
+          "type": "incorrect"
+        },
+        {
+          "field": "sop_doneby",
+          "expected": "Fr. Thomas",
+          "actual": "Fr. Boby",
+          "type": "incorrect"
+        },
+        {
+          "field": "holy_viaticum_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "anointing_of_sick_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        }
+      ],
+      "generated": {
+        "person_name": "Mariam Pekkanam",
+        "father": null,
+        "mother": null,
+        "age": null,
+        "death_date": "09-02-2010",
+        "death_time": "6:45 a.m.",
+        "death_place": "Pekkanam",
+        "death_reason": "Old Age",
+        "cell_no": "14",
+        "burial_date": "09-02-2010",
+        "burial_time": null,
+        "burial_place": "Vandiperiyar",
+        "parish_name": "Assumption Church, Vandiperiyar",
+        "parish_priest": "Fr. Francis Nedumparambil",
+        "sop_doneby": "Fr. Boby",
+        "holy_viaticum_by": null,
+        "anointing_of_sick_by": null
+      }
+    },
+    {
+      "imageFile": "death_010.jpg",
+      "accuracy": 52.94117647058824,
+      "processingTime": 5988,
+      "discrepanciesCount": 8,
+      "discrepancies": [
+        {
+          "field": "death_time",
+          "expected": "05:00 AM",
+          "actual": "5:00 p.m.",
+          "type": "incorrect"
+        },
+        {
+          "field": "age",
+          "expected": 80,
+          "actual": "80",
+          "type": "incorrect"
+        },
+        {
+          "field": "father",
+          "expected": "",
+          "actual": "Anthony Muthu",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_name",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "Vandiperiyar",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Br. Gregory",
+          "actual": "Fr. Francis Cherian",
+          "type": "incorrect"
+        },
+        {
+          "field": "sop_doneby",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "holy_viaticum_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        },
+        {
+          "field": "anointing_of_sick_by",
+          "expected": "",
+          "actual": null,
+          "type": "missing"
+        }
+      ],
+      "generated": {
+        "person_name": "Lourdu Mary",
+        "father": "Anthony Muthu",
+        "mother": "",
+        "age": "80",
+        "death_date": "13-02-2010",
+        "death_time": "5:00 p.m.",
+        "death_place": "Kodaikanal",
+        "death_reason": "Old Age",
+        "cell_no": "15",
+        "burial_date": "14-02-2010",
+        "burial_time": "",
+        "burial_place": "Vandiperiyar",
+        "parish_name": "Vandiperiyar",
+        "parish_priest": "Fr. Francis Cherian",
+        "sop_doneby": null,
+        "holy_viaticum_by": null,
+        "anointing_of_sick_by": null
+      }
+    }
+  ]
+}

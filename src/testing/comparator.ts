@@ -179,13 +179,27 @@ function compareValues(value1: any, value2: any): boolean {
 
 /**
  * Normalize string for comparison (case-insensitive, trim whitespace, remove extra spaces)
+ * Enhanced for Kerala parish records with common abbreviations and variations
  */
 function normalizeString(str: string): string {
-  return str
+  let normalized = str
     .toLowerCase()
     .trim()
-    .replace(/\s+/g, ' ') // Replace multiple spaces with single space
-    .replace(/[^\w\s]/g, ''); // Remove punctuation for fuzzy matching
+    .replace(/\s+/g, ' '); // Replace multiple spaces with single space
+  
+  // Handle common Kerala church/location abbreviations
+  normalized = normalized
+    .replace(/v\.?p\.?r\.?/gi, 'vandiperiyar')
+    .replace(/t\.?u\.?n\.?/gi, 'tun')
+    .replace(/assumption\s+church,?\s*vandiperiyar/gi, 'assumption church vandiperiyar')
+    .replace(/assumption\s+church,?\s*v\.?p\.?r\.?/gi, 'assumption church vandiperiyar')
+    .replace(/\(vandiperiyar\)/gi, 'vandiperiyar')
+    .replace(/\(v\.?p\.?r\.?\)/gi, 'vandiperiyar');
+  
+  // Remove punctuation for fuzzy matching
+  normalized = normalized.replace(/[^\w\s]/g, '');
+  
+  return normalized;
 }
 
 /**

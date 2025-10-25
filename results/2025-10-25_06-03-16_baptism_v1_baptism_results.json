@@ -1,0 +1,691 @@
+{
+  "metadata": {
+    "timestamp": "2025-10-25T06:03:16.837Z",
+    "promptFile": "baptism_v1.txt",
+    "documentType": "baptism",
+    "totalImagesProcessed": 10,
+    "imagesWithBaselines": 10
+  },
+  "overallAccuracy": 48.3,
+  "summary": {
+    "totalImages": 10,
+    "successfulTests": 10,
+    "averageProcessingTime": 11716,
+    "bestAccuracy": 85.71428571428571,
+    "worstAccuracy": 16.666666666666664
+  },
+  "results": [
+    {
+      "imageFile": "baptism_001.jpeg",
+      "accuracy": 85.71428571428571,
+      "processingTime": 7105,
+      "discrepanciesCount": 2,
+      "discrepancies": [
+        {
+          "field": "parents_residence",
+          "expected": "Vandiperiyar",
+          "actual": "Hides",
+          "type": "incorrect"
+        },
+        {
+          "field": "baptized_by",
+          "expected": "Decon Paul",
+          "actual": "Deacon Paul",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "child_name": "Wilson",
+        "father": "Jyyadurai S.K.N",
+        "mother": "Thankamma",
+        "date_of_birth": "14-06-2000",
+        "date_of_baptism": "24-03-2000",
+        "place_of_birth": "Anakuzhy",
+        "parents_residence": "Hides",
+        "sponsors": [
+          "N. Manikandan",
+          "Upakara Mary"
+        ],
+        "sponsors_parish": "Assumption Church, Vandiperiyar",
+        "baptized_by": "Deacon Paul",
+        "baptism_conducted_parish": "Assumption Church, Vandiperiyar",
+        "parish_priest": "Fr. Wales",
+        "record_date": "24-03-2000"
+      }
+    },
+    {
+      "imageFile": "baptism_002.jpg",
+      "accuracy": 50,
+      "processingTime": 6428,
+      "discrepanciesCount": 7,
+      "discrepancies": [
+        {
+          "field": "child_name",
+          "expected": "Sebastian Antony",
+          "actual": "Francis Sebastian Antony Wallarde",
+          "type": "incorrect"
+        },
+        {
+          "field": "father",
+          "expected": "Francis Sebastian",
+          "actual": "Francis Sebdian",
+          "type": "incorrect"
+        },
+        {
+          "field": "parents_residence",
+          "expected": "V.P.R. (Vandiperiyar)",
+          "actual": "V.P.R.",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors[0]",
+          "expected": "Joseph Thomas Arakal",
+          "actual": "Joseph Thomas",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors[1]",
+          "expected": "Elizabeth",
+          "actual": "Arakel Elizabeth",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors_parish",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "V.P.R.",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "",
+          "actual": "Fr. Jose Kattukuziyil",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "child_name": "Francis Sebastian Antony Wallarde",
+        "father": "Francis Sebdian",
+        "mother": "Mary",
+        "date_of_birth": "21-02-2003",
+        "date_of_baptism": "12-04-2003",
+        "place_of_birth": "Ernakulam",
+        "parents_residence": "V.P.R.",
+        "sponsors": [
+          "Joseph Thomas",
+          "Arakel Elizabeth"
+        ],
+        "sponsors_parish": "V.P.R.",
+        "baptized_by": "",
+        "baptism_conducted_parish": "Assumption Church, V.P.R.",
+        "parish_priest": "Fr. Jose Kattukuziyil",
+        "record_date": "12-04-2003"
+      }
+    },
+    {
+      "imageFile": "baptism_003.jpg",
+      "accuracy": 50,
+      "processingTime": 5598,
+      "discrepanciesCount": 7,
+      "discrepancies": [
+        {
+          "field": "father",
+          "expected": "Thomas Pappachan Puthenpurackal",
+          "actual": "Thomas Peppachan Puttenpurakal",
+          "type": "incorrect"
+        },
+        {
+          "field": "date_of_birth",
+          "expected": "02-11-2003",
+          "actual": "02-11-2002",
+          "type": "incorrect"
+        },
+        {
+          "field": "place_of_birth",
+          "expected": "66th mile, Kumily",
+          "actual": "66th Mile Kunjithanny",
+          "type": "incorrect"
+        },
+        {
+          "field": "parents_residence",
+          "expected": "V.P.R. (Vandiperiyar)",
+          "actual": "Manjumala",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors[1]",
+          "expected": "Thresiamma",
+          "actual": "Thressiamma",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors_parish",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "",
+          "actual": "Fr. Boby",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "child_name": "Aleena Maria Thomas",
+        "father": "Thomas Peppachan Puttenpurakal",
+        "mother": "Mariamma (Jessy)",
+        "date_of_birth": "02-11-2002",
+        "date_of_baptism": "12-04-2003",
+        "place_of_birth": "66th Mile Kunjithanny",
+        "parents_residence": "Manjumala",
+        "sponsors": [
+          "Chacko",
+          "Thressiamma"
+        ],
+        "sponsors_parish": "",
+        "baptized_by": "",
+        "baptism_conducted_parish": "Assumption Church, Vandiperiyar",
+        "parish_priest": "Fr. Boby",
+        "record_date": "12-04-2003"
+      }
+    },
+    {
+      "imageFile": "baptism_004.jpg",
+      "accuracy": 61.53846153846154,
+      "processingTime": 5828,
+      "discrepanciesCount": 5,
+      "discrepancies": [
+        {
+          "field": "date_of_baptism",
+          "expected": "06-02-1998",
+          "actual": "15-12-1998",
+          "type": "incorrect"
+        },
+        {
+          "field": "place_of_birth",
+          "expected": "Monvila (Monvila/Monvila T.V.M.)",
+          "actual": "Manjula",
+          "type": "incorrect"
+        },
+        {
+          "field": "parents_residence",
+          "expected": "Monvila",
+          "actual": "Manjula",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors_parish",
+          "expected": "Monvila little flower",
+          "actual": "Manjula, Little Flower",
+          "type": "incorrect"
+        },
+        {
+          "field": "baptism_conducted_parish",
+          "expected": "Monvila",
+          "actual": "Assumption Church, Vandiperiyar",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "child_name": "Varghese",
+        "father": "Antony George",
+        "mother": "Sheela",
+        "date_of_birth": "12-12-1997",
+        "date_of_baptism": "15-12-1998",
+        "place_of_birth": "Manjula",
+        "parents_residence": "Manjula",
+        "sponsors": [
+          "George",
+          "Rosamma"
+        ],
+        "sponsors_parish": "Manjula, Little Flower",
+        "baptized_by": "Fr. John D. Bosco",
+        "baptism_conducted_parish": "Assumption Church, Vandiperiyar",
+        "parish_priest": "",
+        "record_date": ""
+      }
+    },
+    {
+      "imageFile": "baptism_005.jpg",
+      "accuracy": 16.666666666666664,
+      "processingTime": 6082,
+      "discrepanciesCount": 10,
+      "discrepancies": [
+        {
+          "field": "child_name",
+          "expected": "Sheela",
+          "actual": "Sheela Monila",
+          "type": "incorrect"
+        },
+        {
+          "field": "mother",
+          "expected": "Mariamuthu",
+          "actual": "Mariamkutty",
+          "type": "incorrect"
+        },
+        {
+          "field": "date_of_birth",
+          "expected": "30-11-1974",
+          "actual": "13-11-1974",
+          "type": "incorrect"
+        },
+        {
+          "field": "place_of_birth",
+          "expected": "Monvila (Monvila/Monvila T.V.M.)",
+          "actual": "Mundakayam",
+          "type": "incorrect"
+        },
+        {
+          "field": "parents_residence",
+          "expected": "Monvila",
+          "actual": "Mundakayam",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors.length",
+          "expected": 1,
+          "actual": 2,
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors_parish",
+          "expected": "Monvila",
+          "actual": "Assumption Church, Vandiperiyar",
+          "type": "incorrect"
+        },
+        {
+          "field": "baptized_by",
+          "expected": "Fr. Gerorge Paul",
+          "actual": "Fr. George Paul",
+          "type": "incorrect"
+        },
+        {
+          "field": "baptism_conducted_parish",
+          "expected": "Monvila",
+          "actual": "Assumption Church, Vandiperiyar",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "",
+          "actual": "Fr. George Paul",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "child_name": "Sheela Monila",
+        "father": "Nelson",
+        "mother": "Mariamkutty",
+        "date_of_birth": "13-11-1974",
+        "date_of_baptism": "08-12-1974",
+        "place_of_birth": "Mundakayam",
+        "parents_residence": "Mundakayam",
+        "sponsors": [
+          "Chellamma",
+          "Monila"
+        ],
+        "sponsors_parish": "Assumption Church, Vandiperiyar",
+        "baptized_by": "Fr. George Paul",
+        "baptism_conducted_parish": "Assumption Church, Vandiperiyar",
+        "parish_priest": "Fr. George Paul",
+        "record_date": ""
+      }
+    },
+    {
+      "imageFile": "baptism_006.jpg",
+      "accuracy": 33.33333333333333,
+      "processingTime": 5405,
+      "discrepanciesCount": 8,
+      "discrepancies": [
+        {
+          "field": "child_name",
+          "expected": "Antony",
+          "actual": "Antony Monita",
+          "type": "incorrect"
+        },
+        {
+          "field": "father",
+          "expected": "Antony George",
+          "actual": "Antony Monita",
+          "type": "incorrect"
+        },
+        {
+          "field": "mother",
+          "expected": "Sheela",
+          "actual": "Shala Monita",
+          "type": "incorrect"
+        },
+        {
+          "field": "place_of_birth",
+          "expected": "Monvila (Monvila/Monvila T.V.M.)",
+          "actual": "Monita",
+          "type": "incorrect"
+        },
+        {
+          "field": "parents_residence",
+          "expected": "Monvila",
+          "actual": "Monita",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors_parish",
+          "expected": "Monvila",
+          "actual": "Monita",
+          "type": "incorrect"
+        },
+        {
+          "field": "baptized_by",
+          "expected": "Fr. Jose Pullarivila",
+          "actual": "Fr. Jose Pullangady",
+          "type": "incorrect"
+        },
+        {
+          "field": "baptism_conducted_parish",
+          "expected": "Monvila",
+          "actual": "Assumption Church, V.P.R. (Vandiperiyar)",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "child_name": "Antony Monita",
+        "father": "Antony Monita",
+        "mother": "Shala Monita",
+        "date_of_birth": "04-12-1995",
+        "date_of_baptism": "01-01-1996",
+        "place_of_birth": "Monita",
+        "parents_residence": "Monita",
+        "sponsors": [
+          "Annamma"
+        ],
+        "sponsors_parish": "Monita",
+        "baptized_by": "Fr. Jose Pullangady",
+        "baptism_conducted_parish": "Assumption Church, V.P.R. (Vandiperiyar)",
+        "parish_priest": "",
+        "record_date": ""
+      }
+    },
+    {
+      "imageFile": "baptism_007.jpg",
+      "accuracy": 50,
+      "processingTime": 36785,
+      "discrepanciesCount": 7,
+      "discrepancies": [
+        {
+          "field": "father",
+          "expected": "Njana Seemon",
+          "actual": "Myana Seemon",
+          "type": "incorrect"
+        },
+        {
+          "field": "parents_residence",
+          "expected": "V.P.R.",
+          "actual": "",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors[0]",
+          "expected": "Enos Elavila veetil",
+          "actual": "Enos",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors[1]",
+          "expected": "Mariapushpam",
+          "actual": "Francis",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors_parish",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "",
+          "type": "incorrect"
+        },
+        {
+          "field": "baptized_by",
+          "expected": "Fr. Varghese Kottakath",
+          "actual": "Fr. Lonappan Kottackal",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Jose Kuruvila",
+          "actual": "Fr. Jose Kattukuziyil",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "child_name": "Joel Antony",
+        "father": "Myana Seemon",
+        "mother": "Reetha Mary",
+        "date_of_birth": "17-02-2002",
+        "date_of_baptism": "11-05-2003",
+        "place_of_birth": "Kanjirappally",
+        "parents_residence": "",
+        "sponsors": [
+          "Enos",
+          "Francis"
+        ],
+        "sponsors_parish": "",
+        "baptized_by": "Fr. Lonappan Kottackal",
+        "baptism_conducted_parish": "Assumption Church, V.P.R.",
+        "parish_priest": "Fr. Jose Kattukuziyil",
+        "record_date": "11-05-2003"
+      }
+    },
+    {
+      "imageFile": "baptism_008.jpg",
+      "accuracy": 50,
+      "processingTime": 5272,
+      "discrepanciesCount": 7,
+      "discrepancies": [
+        {
+          "field": "father",
+          "expected": "Alexander",
+          "actual": "Alex",
+          "type": "incorrect"
+        },
+        {
+          "field": "mother",
+          "expected": "Thresiamma",
+          "actual": "Theresamma",
+          "type": "incorrect"
+        },
+        {
+          "field": "parents_residence",
+          "expected": "V.P.R.",
+          "actual": "",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors_parish",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "",
+          "type": "incorrect"
+        },
+        {
+          "field": "baptized_by",
+          "expected": "Fr. Varghese kottakath",
+          "actual": "Fr. Varghese Kollakott",
+          "type": "incorrect"
+        },
+        {
+          "field": "baptism_conducted_parish",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "V.P.R.",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Jose Kuruvila",
+          "actual": "Fr. Jose Kunnil",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "child_name": "Alex",
+        "father": "Alex",
+        "mother": "Theresamma",
+        "date_of_birth": "16-12-1993",
+        "date_of_baptism": "11-05-2003",
+        "place_of_birth": "Kattapana",
+        "parents_residence": "",
+        "sponsors": [
+          "Antony",
+          "Sophia"
+        ],
+        "sponsors_parish": "",
+        "baptized_by": "Fr. Varghese Kollakott",
+        "baptism_conducted_parish": "V.P.R.",
+        "parish_priest": "Fr. Jose Kunnil",
+        "record_date": "11-05-2003"
+      }
+    },
+    {
+      "imageFile": "baptism_009.jpg",
+      "accuracy": 42.857142857142854,
+      "processingTime": 18817,
+      "discrepanciesCount": 8,
+      "discrepancies": [
+        {
+          "field": "child_name",
+          "expected": "Varghese",
+          "actual": "Alphonsa",
+          "type": "incorrect"
+        },
+        {
+          "field": "mother",
+          "expected": "Jensy",
+          "actual": "Jency",
+          "type": "incorrect"
+        },
+        {
+          "field": "date_of_baptism",
+          "expected": "11-05-2003",
+          "actual": "05-05-2003",
+          "type": "incorrect"
+        },
+        {
+          "field": "parents_residence",
+          "expected": "Vandiperiyar",
+          "actual": "Vanchiyoor",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors[0]",
+          "expected": "Alphonse Chempakassery",
+          "actual": "Cherpakasseril",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors_parish",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "",
+          "type": "incorrect"
+        },
+        {
+          "field": "baptized_by",
+          "expected": "Fr. Varghese Kottakath",
+          "actual": "Fr. Varghese Kollakott",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Jose Kuruvila",
+          "actual": "Fr. Jose Kattukuziyil",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "child_name": "Alphonsa",
+        "father": "George",
+        "mother": "Jency",
+        "date_of_birth": "28-02-2003",
+        "date_of_baptism": "05-05-2003",
+        "place_of_birth": "Kumily",
+        "parents_residence": "Vanchiyoor",
+        "sponsors": [
+          "Cherpakasseril",
+          "Rose Mary"
+        ],
+        "sponsors_parish": "",
+        "baptized_by": "Fr. Varghese Kollakott",
+        "baptism_conducted_parish": "Assumption Church, V.P.R.",
+        "parish_priest": "Fr. Jose Kattukuziyil",
+        "record_date": "11-05-2003"
+      }
+    },
+    {
+      "imageFile": "baptism_010.jpg",
+      "accuracy": 42.857142857142854,
+      "processingTime": 19835,
+      "discrepanciesCount": 8,
+      "discrepancies": [
+        {
+          "field": "child_name",
+          "expected": "Mathu Mitha",
+          "actual": "Madhu M. V.",
+          "type": "incorrect"
+        },
+        {
+          "field": "father",
+          "expected": "Michal Rajan",
+          "actual": "Michael Rajen",
+          "type": "incorrect"
+        },
+        {
+          "field": "mother",
+          "expected": "Mary Santhi",
+          "actual": "Mary Santh",
+          "type": "incorrect"
+        },
+        {
+          "field": "date_of_baptism",
+          "expected": "03-05-2003",
+          "actual": "04-05-2003",
+          "type": "incorrect"
+        },
+        {
+          "field": "place_of_birth",
+          "expected": "Anakkara",
+          "actual": "Kannadikadu",
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors.length",
+          "expected": 2,
+          "actual": 1,
+          "type": "incorrect"
+        },
+        {
+          "field": "sponsors_parish",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "V.P.R. and Mayanad",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Jose Kuruvila",
+          "actual": "Fr. Boby",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "child_name": "Madhu M. V.",
+        "father": "Michael Rajen",
+        "mother": "Mary Santh",
+        "date_of_birth": "15-06-2002",
+        "date_of_baptism": "04-05-2003",
+        "place_of_birth": "Kannadikadu",
+        "parents_residence": "V.P.R.",
+        "sponsors": [
+          "Mani Raj"
+        ],
+        "sponsors_parish": "V.P.R. and Mayanad",
+        "baptized_by": "",
+        "baptism_conducted_parish": "Assumption Church, V.P.R.",
+        "parish_priest": "Fr. Boby",
+        "record_date": "04-05-2003"
+      }
+    }
+  ]
+}

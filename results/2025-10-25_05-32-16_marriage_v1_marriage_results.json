@@ -1,0 +1,1180 @@
+{
+  "metadata": {
+    "timestamp": "2025-10-25T05:32:16.753Z",
+    "promptFile": "marriage_v1.txt",
+    "documentType": "marriage",
+    "totalImagesProcessed": 10,
+    "imagesWithBaselines": 10
+  },
+  "overallAccuracy": 57.28,
+  "summary": {
+    "totalImages": 10,
+    "successfulTests": 10,
+    "averageProcessingTime": 12367,
+    "bestAccuracy": 71.42857142857143,
+    "worstAccuracy": 31.03448275862069
+  },
+  "results": [
+    {
+      "imageFile": "marriage_001.jpeg",
+      "accuracy": 62.06896551724138,
+      "processingTime": 11281,
+      "discrepanciesCount": 12,
+      "discrepancies": [
+        {
+          "field": "groom_father",
+          "expected": "Antony",
+          "actual": "Varkey",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_dob",
+          "expected": "20-02-1989",
+          "actual": "22-02-1991",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_age",
+          "expected": "29",
+          "actual": "27",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_bap_date",
+          "expected": "16-04-1989",
+          "actual": "16-04-1991",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_parish_name",
+          "expected": "Vandiperiyar",
+          "actual": "C.S.I.",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_birth_parish",
+          "expected": "III Division",
+          "actual": "C.S.I.",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_conf_date",
+          "expected": "19-12-2014",
+          "actual": "19-12-1994",
+          "type": "incorrect"
+        },
+        {
+          "field": "dates_of_banns",
+          "expected": [
+            "31-12-2017",
+            "07-01-2018",
+            "14-01-2018"
+          ],
+          "actual": "31-12-2017,07-01-2018,14-01-2018",
+          "type": "incorrect"
+        },
+        {
+          "field": "celebrant_priest",
+          "expected": "Fr. Augustine P. Asir",
+          "actual": "Fr. Augustine P. Asi",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Jose Manuel Kattachanthy",
+          "actual": "Fr. Nelson Arivilla",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2_parish",
+          "expected": "Pala",
+          "actual": "Santhibhavan, Pala",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_parish_name",
+          "actual": "Vandiperiyar",
+          "type": "extra"
+        }
+      ],
+      "generated": {
+        "groom_name": "Christy Paul",
+        "groom_father": "Varkey",
+        "groom_mother": "Annamma",
+        "groom_birth_parish": "Vandiperiyar",
+        "groom_dob": "22-02-1991",
+        "groom_age": "27",
+        "groom_bap_date": "16-04-1991",
+        "groom_conf_date": "",
+        "groom_parish_name": "Vandiperiyar",
+        "bride_name": "Sonia Thomas",
+        "bride_father": "Thomas (Late)",
+        "bride_mother": "Lissy",
+        "bride_parish_name": "C.S.I.",
+        "bride_birth_parish": "C.S.I.",
+        "bride_dob": "15-04-1994",
+        "bride_age": "24",
+        "bride_bap_date": "19-12-1994",
+        "bride_conf_date": "19-12-1994",
+        "marriage_date": "15-01-2018",
+        "date_of_record": "15-01-2018",
+        "dates_of_banns": "31-12-2017,07-01-2018,14-01-2018",
+        "place": "Assumption Church, Vandiperiyar",
+        "celebrant_priest": "Fr. Augustine P. Asi",
+        "parish_priest": "Fr. Nelson Arivilla",
+        "witness1": "George Kutty",
+        "witness2": "Reji Thomas",
+        "witness1_parish": "Vandiperiyar",
+        "witness2_parish": "Santhibhavan, Pala"
+      }
+    },
+    {
+      "imageFile": "marriage_002.jpg",
+      "accuracy": 68.96551724137932,
+      "processingTime": 12101,
+      "discrepanciesCount": 9,
+      "discrepancies": [
+        {
+          "field": "groom_father",
+          "expected": "Irudaya Raj",
+          "actual": "Irudayas Reg.",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_mother",
+          "expected": "Dhanamani",
+          "actual": "Dhanamary",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_dob",
+          "expected": "16-05-1988",
+          "actual": "16-05-1986",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_age",
+          "expected": "34",
+          "actual": "31",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_bap_date",
+          "expected": "22-12-2015",
+          "actual": "28-12-2015",
+          "type": "incorrect"
+        },
+        {
+          "field": "dates_of_banns",
+          "expected": [
+            "21-01-2018",
+            "28-01-2018",
+            "04-02-2018"
+          ],
+          "actual": "21-01-2018,28-01-2018,04-02-2018",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness1",
+          "expected": "St Savior",
+          "actual": "Kavishankar",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2",
+          "expected": "Sahajam",
+          "actual": "Shahayan",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness1_parish",
+          "expected": "Vandiperiyar",
+          "actual": "St. Savio's Malabar",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "groom_name": "Albert",
+        "groom_father": "Irudayas Reg.",
+        "groom_mother": "Dhanamary",
+        "groom_birth_parish": "",
+        "groom_dob": "16-05-1986",
+        "groom_age": "31",
+        "groom_bap_date": "28-12-2015",
+        "groom_conf_date": "22-12-2015",
+        "bride_name": "Dhanya",
+        "bride_father": "Gopi",
+        "bride_mother": "Sundari",
+        "bride_parish_name": "",
+        "bride_birth_parish": "",
+        "bride_dob": "14-10-1984",
+        "bride_age": "30",
+        "bride_bap_date": "14-02-1985",
+        "bride_conf_date": "",
+        "marriage_date": "09-02-2018",
+        "date_of_record": "09-02-2018",
+        "dates_of_banns": "21-01-2018,28-01-2018,04-02-2018",
+        "place": "Assumption Church, Vandiperiyar",
+        "celebrant_priest": "Fr. Nelson Arivilla",
+        "parish_priest": "Fr. Nelson Arivilla",
+        "witness1": "Kavishankar",
+        "witness2": "Shahayan",
+        "witness1_parish": "St. Savio's Malabar",
+        "witness2_parish": "Vandiperiyar"
+      }
+    },
+    {
+      "imageFile": "marriage_003.jpg",
+      "accuracy": 46.15384615384615,
+      "processingTime": 31385,
+      "discrepanciesCount": 15,
+      "discrepancies": [
+        {
+          "field": "groom_name",
+          "expected": "Prince Kattuthara",
+          "actual": "Prince Kattukunnel",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_mother",
+          "expected": "Lourd",
+          "actual": "Elappan",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_birth_parish",
+          "expected": "Vandiperiyar",
+          "actual": "Elappan",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_name",
+          "expected": "Elzabath",
+          "actual": "Elizabeth Piravi",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_parish_name",
+          "expected": "Vandiperiyar",
+          "actual": "Kanjirappally",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_birth_parish",
+          "expected": "",
+          "actual": "Elappan",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_mother",
+          "expected": "Phinomina",
+          "actual": "Elappan",
+          "type": "incorrect"
+        },
+        {
+          "field": "dates_of_banns",
+          "expected": [],
+          "actual": "",
+          "type": "incorrect"
+        },
+        {
+          "field": "place",
+          "expected": "Vandiperiyar",
+          "actual": "Assumption Church, Vandiperiyar",
+          "type": "incorrect"
+        },
+        {
+          "field": "celebrant_priest",
+          "expected": "Fr. Nelson Arivilla",
+          "actual": "Fr. Nelson Aravilla",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Nelson Arivilla",
+          "actual": "Fr. Nelson Aravilla",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness1",
+          "expected": "Ignatious",
+          "actual": "Ignatious Kandanadukunnu",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2",
+          "expected": "Varghese R",
+          "actual": "J. Vargheese Olivandil",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2_parish",
+          "expected": "Elapara",
+          "actual": "Elappan",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_parish_name",
+          "actual": "Vandiperiyar",
+          "type": "extra"
+        }
+      ],
+      "generated": {
+        "groom_name": "Prince Kattukunnel",
+        "groom_father": "Jayaraj",
+        "groom_mother": "Elappan",
+        "groom_birth_parish": "Elappan",
+        "groom_dob": "",
+        "groom_age": "30",
+        "groom_bap_date": "",
+        "groom_conf_date": "",
+        "groom_parish_name": "Vandiperiyar",
+        "bride_name": "Elizabeth Piravi",
+        "bride_father": "Joseph",
+        "bride_mother": "Elappan",
+        "bride_parish_name": "Kanjirappally",
+        "bride_birth_parish": "Elappan",
+        "bride_dob": "",
+        "bride_age": "28",
+        "bride_bap_date": "",
+        "bride_conf_date": "",
+        "marriage_date": "30-05-2018",
+        "date_of_record": "30-05-2018",
+        "dates_of_banns": "",
+        "place": "Assumption Church, Vandiperiyar",
+        "celebrant_priest": "Fr. Nelson Aravilla",
+        "parish_priest": "Fr. Nelson Aravilla",
+        "witness1": "Ignatious Kandanadukunnu",
+        "witness2": "J. Vargheese Olivandil",
+        "witness1_parish": "Vandiperiyar",
+        "witness2_parish": "Elappan"
+      }
+    },
+    {
+      "imageFile": "marriage_004.jpg",
+      "accuracy": 71.42857142857143,
+      "processingTime": 7482,
+      "discrepanciesCount": 9,
+      "discrepancies": [
+        {
+          "field": "groom_name",
+          "expected": "Franklin Anto",
+          "actual": "F. Franklin Anto",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_parish_name",
+          "expected": "St. Joseph’s, Madras",
+          "actual": "St. Joseph, Madurai",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_bap_date",
+          "expected": "28-09-2017",
+          "actual": "12-09-1990",
+          "type": "incorrect"
+        },
+        {
+          "field": "dates_of_banns",
+          "expected": [
+            "15-10-2017",
+            "22-10-2017",
+            "29-10-2017"
+          ],
+          "actual": "15-10-2017,22-10-2017,29-10-2017",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Jose Manuel Kattachanthy",
+          "actual": "Fr. Jose Kattukuziyil",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness1",
+          "expected": "Kurichumuthu",
+          "actual": "K. J. Chacko",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2",
+          "expected": "Lawrance",
+          "actual": "K. Varghese",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2_parish",
+          "expected": "VPR",
+          "actual": "C.C.R.",
+          "type": "incorrect"
+        },
+        {
+          "field": "celebrant_priest",
+          "actual": "Fr. Francis Nedumparambil",
+          "type": "extra"
+        }
+      ],
+      "generated": {
+        "groom_name": "F. Franklin Anto",
+        "groom_father": "Francis Antony",
+        "groom_mother": "Mary",
+        "groom_birth_parish": "Vandiperiyar",
+        "groom_dob": "14-08-1990",
+        "groom_age": "27",
+        "groom_bap_date": "11-11-1990",
+        "groom_conf_date": "",
+        "bride_name": "S. Jasmine",
+        "bride_father": "N. Samuel",
+        "bride_mother": "S. Maryal",
+        "bride_parish_name": "St. Joseph, Madurai",
+        "bride_birth_parish": "",
+        "bride_dob": "05-09-1990",
+        "bride_age": "27",
+        "bride_bap_date": "12-09-1990",
+        "bride_conf_date": "",
+        "marriage_date": "30-10-2017",
+        "date_of_record": "30-10-2017",
+        "dates_of_banns": "15-10-2017,22-10-2017,29-10-2017",
+        "place": "Assumption Church, Vandiperiyar",
+        "celebrant_priest": "Fr. Francis Nedumparambil",
+        "parish_priest": "Fr. Jose Kattukuziyil",
+        "witness1": "K. J. Chacko",
+        "witness2": "K. Varghese",
+        "witness1_parish": "V.P.R.",
+        "witness2_parish": "C.C.R."
+      }
+    },
+    {
+      "imageFile": "marriage_005.jpg",
+      "accuracy": 62.06896551724138,
+      "processingTime": 7874,
+      "discrepanciesCount": 11,
+      "discrepancies": [
+        {
+          "field": "groom_father",
+          "expected": "Britus",
+          "actual": "Boitus",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_mother",
+          "expected": "Glory Maria",
+          "actual": "Glogy Maria",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_birth_parish",
+          "expected": "Assumption, V.P.R.",
+          "actual": "Assumption Church, Vandiperiyar",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_birth_parish",
+          "expected": "Erupia",
+          "actual": "Ettumanoor",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_dob",
+          "expected": "11-04-1994",
+          "actual": "11-11-1994",
+          "type": "incorrect"
+        },
+        {
+          "field": "dates_of_banns",
+          "expected": [
+            "22-10-2017",
+            "29-10-2017",
+            "05-11-2017"
+          ],
+          "actual": "29-09-2017,05-10-2017",
+          "type": "incorrect"
+        },
+        {
+          "field": "celebrant_priest",
+          "expected": "Fr. Augustine P. Asir",
+          "actual": "Fr. Augustine P. Jose",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Jose Manuel Kattachanthy",
+          "actual": "Fr. Jose Manuel Kattukuzhiyil",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness1",
+          "expected": "Danapal",
+          "actual": "Dampal",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2",
+          "expected": "Dominic Francis",
+          "actual": "Domnic Francis",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness1_parish",
+          "expected": "",
+          "actual": "Ettumanoor",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "groom_name": "Lawrence",
+        "groom_father": "Boitus",
+        "groom_mother": "Glogy Maria",
+        "groom_birth_parish": "Assumption Church, Vandiperiyar",
+        "groom_dob": "28-05-1987",
+        "groom_age": "30",
+        "groom_bap_date": "01-11-1987",
+        "groom_conf_date": "",
+        "bride_name": "Jessy Mary",
+        "bride_father": "Varghese",
+        "bride_mother": "Daisy",
+        "bride_parish_name": "Cherthala",
+        "bride_birth_parish": "Ettumanoor",
+        "bride_dob": "11-11-1994",
+        "bride_age": "23",
+        "bride_bap_date": "12-06-1994",
+        "bride_conf_date": "",
+        "marriage_date": "06-11-2017",
+        "date_of_record": "06-11-2017",
+        "dates_of_banns": "29-09-2017,05-10-2017",
+        "place": "Assumption Church, Vandiperiyar",
+        "celebrant_priest": "Fr. Augustine P. Jose",
+        "parish_priest": "Fr. Jose Manuel Kattukuzhiyil",
+        "witness1": "Dampal",
+        "witness2": "Domnic Francis",
+        "witness1_parish": "Ettumanoor",
+        "witness2_parish": "Vandiperiyar"
+      }
+    },
+    {
+      "imageFile": "marriage_006.jpg",
+      "accuracy": 55.172413793103445,
+      "processingTime": 10346,
+      "discrepanciesCount": 13,
+      "discrepancies": [
+        {
+          "field": "groom_name",
+          "expected": "Thomas A H",
+          "actual": "Thomas M. Jiney",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_mother",
+          "expected": "Mariyamma",
+          "actual": "Maryamma",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_dob",
+          "expected": "07-05-1983",
+          "actual": "09-05-1983",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_bap_date",
+          "expected": "15-05-1983",
+          "actual": "18-06-1983",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_name",
+          "expected": "Rosa Mathew (Pinky)",
+          "actual": "Rosa Mathew (Princy)",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_parish_name",
+          "expected": "Vandiperiyar",
+          "actual": "Chennad",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_birth_parish",
+          "expected": "Anappara",
+          "actual": "Lourd Matha, Chennad",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_mother",
+          "expected": "Mariyam",
+          "actual": "Maryam",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_dob",
+          "expected": "23-04-1988",
+          "actual": "27-04-1988",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_bap_date",
+          "expected": "23-05-1989",
+          "actual": "31-07-1988",
+          "type": "incorrect"
+        },
+        {
+          "field": "dates_of_banns",
+          "expected": [
+            "13-08-2017",
+            "20-08-2017",
+            "27-08-2017"
+          ],
+          "actual": "10-12-2017,17-12-2017,24-12-2017",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Jose Manuel Kattachanthy",
+          "actual": "Fr. Jose Manuel Kattakuzhy",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness1",
+          "expected": "C T Mathew",
+          "actual": "C.T. Mathew",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "groom_name": "Thomas M. Jiney",
+        "groom_father": "Lonappan",
+        "groom_mother": "Maryamma",
+        "groom_birth_parish": "Vandiperiyar",
+        "groom_dob": "09-05-1983",
+        "groom_age": "33",
+        "groom_bap_date": "18-06-1983",
+        "groom_conf_date": "",
+        "bride_name": "Rosa Mathew (Princy)",
+        "bride_father": "Mathew",
+        "bride_mother": "Maryam",
+        "bride_parish_name": "Chennad",
+        "bride_birth_parish": "Lourd Matha, Chennad",
+        "bride_dob": "27-04-1988",
+        "bride_age": "29",
+        "bride_bap_date": "31-07-1988",
+        "bride_conf_date": "",
+        "marriage_date": "28-12-2017",
+        "date_of_record": "28-12-2017",
+        "dates_of_banns": "10-12-2017,17-12-2017,24-12-2017",
+        "place": "Assumption Church, Vandiperiyar",
+        "celebrant_priest": "Fr. Augustine P. Asir",
+        "parish_priest": "Fr. Jose Manuel Kattakuzhy",
+        "witness1": "C.T. Mathew",
+        "witness2": "Jose Joseph",
+        "witness1_parish": "Vellaramkunnu",
+        "witness2_parish": "Chennad"
+      }
+    },
+    {
+      "imageFile": "marriage_007.jpg",
+      "accuracy": 31.03448275862069,
+      "processingTime": 13897,
+      "discrepanciesCount": 20,
+      "discrepancies": [
+        {
+          "field": "groom_father",
+          "expected": "KT Francis",
+          "actual": "K. J. Francis",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_mother",
+          "expected": "Babeena",
+          "actual": "Babena",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_birth_parish",
+          "expected": "Assumption, Vandiperiyar",
+          "actual": "Assumption",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_dob",
+          "expected": "09-05-1972",
+          "actual": "29-05-1972",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_bap_date",
+          "expected": "17-05-1972",
+          "actual": "13-05-1972",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_name",
+          "expected": "Mary Ariyakulam",
+          "actual": "Mary Aiyakulam",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_parish_name",
+          "expected": "Vandiperiyar",
+          "actual": "Assumption",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_birth_parish",
+          "expected": "Yadell",
+          "actual": "Nadel",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_mother",
+          "expected": "Brigit",
+          "actual": "Bajit",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_dob",
+          "expected": "22-03-1982",
+          "actual": "22-03-1980",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_bap_date",
+          "expected": "02-05-1982",
+          "actual": "05-05-1980",
+          "type": "incorrect"
+        },
+        {
+          "field": "marriage_date",
+          "expected": "16-10-2017",
+          "actual": "18-10-2019",
+          "type": "incorrect"
+        },
+        {
+          "field": "date_of_record",
+          "expected": "16-10-2017",
+          "actual": "18-10-2019",
+          "type": "incorrect"
+        },
+        {
+          "field": "dates_of_banns",
+          "expected": [
+            "01-10-2017",
+            "08-10-2017",
+            "15-10-2017"
+          ],
+          "actual": "01,08,15-10-2019",
+          "type": "incorrect"
+        },
+        {
+          "field": "celebrant_priest",
+          "expected": "Fr. Augustine P. Asir",
+          "actual": "Fr. Jose Kattukuziyil",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Jose Manuel Kattachanthy",
+          "actual": "Fr. Jose Kattukuziyil",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness1",
+          "expected": "Varghese",
+          "actual": "Vasudevan",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2",
+          "expected": "Antony A J",
+          "actual": "Antony A. John",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness1_parish",
+          "expected": "",
+          "actual": "St. Mary’s, Vandiperiyar",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2_parish",
+          "expected": "",
+          "actual": "Nadel",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "groom_name": "Emmanuel (Baiju)",
+        "groom_father": "K. J. Francis",
+        "groom_mother": "Babena",
+        "groom_birth_parish": "Assumption",
+        "groom_dob": "29-05-1972",
+        "groom_age": "47",
+        "groom_bap_date": "13-05-1972",
+        "groom_conf_date": "",
+        "bride_name": "Mary Aiyakulam",
+        "bride_father": "Jose",
+        "bride_mother": "Bajit",
+        "bride_parish_name": "Assumption",
+        "bride_birth_parish": "Nadel",
+        "bride_dob": "22-03-1980",
+        "bride_age": "39",
+        "bride_bap_date": "05-05-1980",
+        "bride_conf_date": "",
+        "marriage_date": "18-10-2019",
+        "date_of_record": "18-10-2019",
+        "dates_of_banns": "01,08,15-10-2019",
+        "place": "Assumption Church, Vandiperiyar",
+        "celebrant_priest": "Fr. Jose Kattukuziyil",
+        "parish_priest": "Fr. Jose Kattukuziyil",
+        "witness1": "Vasudevan",
+        "witness2": "Antony A. John",
+        "witness1_parish": "St. Mary’s, Vandiperiyar",
+        "witness2_parish": "Nadel"
+      }
+    },
+    {
+      "imageFile": "marriage_008.jpg",
+      "accuracy": 48.275862068965516,
+      "processingTime": 9541,
+      "discrepanciesCount": 16,
+      "discrepancies": [
+        {
+          "field": "groom_name",
+          "expected": "Densing Xavior",
+          "actual": "Denis Xavier",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_father",
+          "expected": "Vincent Xavior",
+          "actual": "Vincent Xavier",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_birth_parish",
+          "expected": "Assumption Church, Vandiperiyar",
+          "actual": "Vandiperiyar",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_age",
+          "expected": "34",
+          "actual": "30",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_parish_name",
+          "expected": "Vandiperiyar",
+          "actual": "V.P.R.",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_birth_parish",
+          "expected": "Y.P.R.",
+          "actual": "",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_dob",
+          "expected": "",
+          "actual": "27-12-1993",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_age",
+          "expected": "29",
+          "actual": "23",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_bap_date",
+          "expected": "",
+          "actual": "13-10-2011",
+          "type": "incorrect"
+        },
+        {
+          "field": "marriage_date",
+          "expected": "13-10-2017",
+          "actual": "13-10-2019",
+          "type": "incorrect"
+        },
+        {
+          "field": "date_of_record",
+          "expected": "13-10-2017",
+          "actual": "13-10-2019",
+          "type": "incorrect"
+        },
+        {
+          "field": "dates_of_banns",
+          "expected": [
+            "24-09-2017",
+            "01-10-2017",
+            "08-10-2017"
+          ],
+          "actual": "",
+          "type": "incorrect"
+        },
+        {
+          "field": "celebrant_priest",
+          "expected": "Fr. Augustine P. Asir",
+          "actual": "Fr. Augustine P.",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Jose Manuel Kattachanthy",
+          "actual": "Fr. Jose Kattukuziyil",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2_parish",
+          "expected": "Y.P.R.",
+          "actual": "V.P.R.",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_parish_name",
+          "actual": "Vandiperiyar",
+          "type": "extra"
+        }
+      ],
+      "generated": {
+        "groom_name": "Denis Xavier",
+        "groom_father": "Vincent Xavier",
+        "groom_mother": "Alphonsa",
+        "groom_birth_parish": "Vandiperiyar",
+        "groom_dob": "",
+        "groom_age": "30",
+        "groom_bap_date": "",
+        "groom_conf_date": "",
+        "groom_parish_name": "Vandiperiyar",
+        "bride_name": "Catharine Revathy",
+        "bride_father": "Muthuraj",
+        "bride_mother": "Rekha",
+        "bride_parish_name": "V.P.R.",
+        "bride_birth_parish": "",
+        "bride_dob": "27-12-1993",
+        "bride_age": "23",
+        "bride_bap_date": "13-10-2011",
+        "bride_conf_date": "",
+        "marriage_date": "13-10-2019",
+        "date_of_record": "13-10-2019",
+        "dates_of_banns": "",
+        "place": "Assumption Church, Vandiperiyar",
+        "celebrant_priest": "Fr. Augustine P.",
+        "parish_priest": "Fr. Jose Kattukuziyil",
+        "witness1": "Francis",
+        "witness2": "Josephine Francis",
+        "witness1_parish": "V.P.R.",
+        "witness2_parish": "V.P.R."
+      }
+    },
+    {
+      "imageFile": "marriage_009.jpg",
+      "accuracy": 62.06896551724138,
+      "processingTime": 6971,
+      "discrepanciesCount": 11,
+      "discrepancies": [
+        {
+          "field": "groom_dob",
+          "expected": "07-06-1988",
+          "actual": "21-11-1988",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_age",
+          "expected": "29",
+          "actual": "28",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_parish_name",
+          "expected": "Pandian",
+          "actual": "Pambanar",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_birth_parish",
+          "expected": "",
+          "actual": "Pambanar",
+          "type": "incorrect"
+        },
+        {
+          "field": "bride_dob",
+          "expected": "15-11-1991",
+          "actual": "15-12-1991",
+          "type": "incorrect"
+        },
+        {
+          "field": "marriage_date",
+          "expected": "27-08-2017",
+          "actual": "27-09-2017",
+          "type": "incorrect"
+        },
+        {
+          "field": "date_of_record",
+          "expected": "27-08-2017",
+          "actual": "27-09-2017",
+          "type": "incorrect"
+        },
+        {
+          "field": "dates_of_banns",
+          "expected": [
+            "13-08-2017",
+            "20-08-2017",
+            "27-08-2017"
+          ],
+          "actual": "",
+          "type": "incorrect"
+        },
+        {
+          "field": "celebrant_priest",
+          "expected": "Bp. Sebastian Thekethechel",
+          "actual": "Fr. Sebastian Thekkekunnel",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Jose Manuel Kattachanthy",
+          "actual": "Fr. Jose Manathodathil",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2_parish",
+          "expected": "Arnakal",
+          "actual": "Pambanar",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "groom_name": "Velankanni Raja",
+        "groom_father": "Alphonse Antony",
+        "groom_mother": "Jeyaraj",
+        "groom_birth_parish": "Vandiperiyar",
+        "groom_dob": "21-11-1988",
+        "groom_age": "28",
+        "groom_bap_date": "",
+        "groom_conf_date": "",
+        "bride_name": "V. Sonia Mary",
+        "bride_father": "G. Vincent",
+        "bride_mother": "Pushpam",
+        "bride_parish_name": "Pambanar",
+        "bride_birth_parish": "Pambanar",
+        "bride_dob": "15-12-1991",
+        "bride_age": "26",
+        "bride_bap_date": "",
+        "bride_conf_date": "",
+        "marriage_date": "27-09-2017",
+        "date_of_record": "27-09-2017",
+        "dates_of_banns": "",
+        "place": "Assumption Church, Vandiperiyar",
+        "celebrant_priest": "Fr. Sebastian Thekkekunnel",
+        "parish_priest": "Fr. Jose Manathodathil",
+        "witness1": "R. Antony",
+        "witness2": "Sahayaraj",
+        "witness1_parish": "Pambanar",
+        "witness2_parish": "Pambanar"
+      }
+    },
+    {
+      "imageFile": "marriage_010.jpg",
+      "accuracy": 65.51724137931035,
+      "processingTime": 12794,
+      "discrepanciesCount": 10,
+      "discrepancies": [
+        {
+          "field": "groom_name",
+          "expected": "Vijay Febaraj",
+          "actual": "Vijay Jebaraj",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_father",
+          "expected": "Grindas",
+          "actual": "Gurudas",
+          "type": "incorrect"
+        },
+        {
+          "field": "groom_mother",
+          "expected": "Thavamary",
+          "actual": "Thavamany",
+          "type": "incorrect"
+        },
+        {
+          "field": "dates_of_banns",
+          "expected": [
+            "10-09-2017",
+            "17-09-2017",
+            "24-09-2017"
+          ],
+          "actual": "",
+          "type": "incorrect"
+        },
+        {
+          "field": "celebrant_priest",
+          "expected": "Fr. C. Antony",
+          "actual": "Fr. Jose Manuel Kattukuzhiyil",
+          "type": "incorrect"
+        },
+        {
+          "field": "parish_priest",
+          "expected": "Fr. Jose Manuel Kattachanthy",
+          "actual": "Fr. Jose Manuel Kattukuzhiyil",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness1",
+          "expected": "George kuty",
+          "actual": "Joseph Mathew",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2",
+          "expected": "Francis Antony",
+          "actual": "Janis Antony",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness1_parish",
+          "expected": "V.P.R.",
+          "actual": "Vandiperiyar",
+          "type": "incorrect"
+        },
+        {
+          "field": "witness2_parish",
+          "expected": "V.P.R.",
+          "actual": "Vandiperiyar",
+          "type": "incorrect"
+        }
+      ],
+      "generated": {
+        "groom_name": "Vijay Jebaraj",
+        "groom_father": "Gurudas",
+        "groom_mother": "Thavamany",
+        "groom_birth_parish": "Vandiperiyar",
+        "groom_dob": "09-01-1987",
+        "groom_age": "29",
+        "groom_bap_date": "23-01-1987",
+        "groom_conf_date": "31-05-1998",
+        "bride_name": "Maria Merlin (Anju Antony)",
+        "bride_father": "R. Antony",
+        "bride_mother": "Regina Antony",
+        "bride_parish_name": "Vandiperiyar",
+        "bride_birth_parish": "",
+        "bride_dob": "03-01-1991",
+        "bride_age": "25",
+        "bride_bap_date": "23-12-1991",
+        "bride_conf_date": "30-04-2005",
+        "marriage_date": "30-09-2017",
+        "date_of_record": "30-09-2017",
+        "dates_of_banns": "",
+        "place": "Assumption Church, Vandiperiyar",
+        "celebrant_priest": "Fr. Jose Manuel Kattukuzhiyil",
+        "parish_priest": "Fr. Jose Manuel Kattukuzhiyil",
+        "witness1": "Joseph Mathew",
+        "witness2": "Janis Antony",
+        "witness1_parish": "Vandiperiyar",
+        "witness2_parish": "Vandiperiyar"
+      }
+    }
+  ]
+}
