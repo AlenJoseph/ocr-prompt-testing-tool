@@ -1,15 +1,18 @@
-  {
-    "child_name": "Antony",
-    "father": "Antony George",
-    "mother": "Sheela",
-    "date_of_birth": "04-12-1995",
-    "date_of_baptism": "01-01-1996",
-    "place_of_birth": "Monvila (Monvila/Monvila T.V.M.)",
-    "parents_residence": "Monvila",
-    "sponsors": ["Annamma"],
-    "sponsors_parish": "Monvila",
-    "baptized_by": "Fr. Jose Pullarivila",
-    "baptism_conducted_parish": "Monvila",
-    "parish_priest": "",
-    "record_date": null
-  }
+{
+  "child_name": "Anju",
+  "father": "Alexander",
+  "mother": "Thresiamma",
+  "date_of_birth": "29-01-1998",
+  "date_of_baptism": "11-05-2003",
+  "place_of_birth": "Kumily",
+  "parents_residence": "Churakkulam",
+  "sponsors": [
+    "Antony",
+    "Sophia"
+  ],
+  "sponsors_parish": "Assumption Church, Vandiperiyar",
+  "baptized_by": "Fr. Varghese Kottakath",
+  "baptism_conducted_parish": "Assumption Church, Vandiperiyar",
+  "parish_priest": "Fr. Jose Kuruvilla",
+  "record_date": "11-05-2003"
+}
